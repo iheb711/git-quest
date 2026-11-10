@@ -1,0 +1,87 @@
+[33mcommit a26e541fd925c4d1a62de0b8239198dbe9f925f9[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: iheb711 <iheb,benomrane@etudiant-enit.utm.tn>
+Date:   Tue Nov 10 22:26:29 2026 +0100
+
+    feat: enlist agent iheb711
+
+ agents/iheb711.md | 4 [32m++++[m
+ 1 file changed, 4 insertions(+)
+
+[33mcommit 33f41afb8d7e236b013c0819b696b0110160ed4a[m
+Author: Securinets HQ <hq@securinets-enit.tn>
+Date:   Tue Oct 20 18:00:00 2026 +0100
+
+    🤖 ci: wake up the Quest Master
+
+ .github/ISSUE_TEMPLATE/config.yml      |   1 [32m+[m
+ .github/ISSUE_TEMPLATE/start-quest.yml |  20 [32m++[m
+ .github/quest/bot.py                   | 322 [32m+++++++++++++++++++++++++++++[m
+ .github/quest/build_card.py            |  47 [32m+++++[m
+ .github/quest/checks.py                | 356 [32m+++++++++++++++++++++++++++++++++[m
+ .github/quest/ci_inspect.py            |  62 [32m++++++[m
+ .github/quest/levels/01-identity.md    |  42 [32m++++[m
+ .github/quest/levels/02-ghost.md       |  20 [32m++[m
+ .github/quest/levels/03-precision.md   |  24 [32m+++[m
+ .github/quest/levels/04-cloud.md       |  31 [32m+++[m
+ .github/quest/levels/05-branch.md      |  26 [32m+++[m
+ .github/quest/levels/06-intel.md       |  44 [32m++++[m
+ .github/quest/levels/07-machine.md     |  16 [32m++[m
+ .github/quest/levels/08-report.md      |  23 [32m+++[m
+ .github/quest/levels/09-golive.md      |  13 [32m++[m
+ .github/quest/levels/99-finale.md      |   7 [32m+[m
+ .github/quest/levels/welcome.md        |  11 [32m+[m
+ .github/quest/quest.json               |  18 [32m++[m
+ .github/workflows/deploy-card.yml      |  40 [32m++++[m
+ .github/workflows/quest-bot.yml        |  45 [32m+++++[m
+ .github/workflows/quest-ci.yml         |  24 [32m+++[m
+ 21 files changed, 1192 insertions(+)
+
+[33mcommit 538cb8b82b6251344f3fcdbfec19dfc9f19c5c61[m
+Author: Securinets HQ <hq@securinets-enit.tn>
+Date:   Mon Oct 12 14:30:00 2026 +0100
+
+    team: create the roster
+
+ team/roster.md | 7 [32m+++++++[m
+ 1 file changed, 7 insertions(+)
+
+[33mcommit 4adac71916f4ba36edf48c25ddffe9c479a84a2c[m
+Author: Securinets HQ <hq@securinets-enit.tn>
+Date:   Sat Oct 10 10:00:00 2026 +0100
+
+    vault: install two locked vaults
+
+ vault/alpha.txt | 3 [32m+++[m
+ vault/beta.txt  | 3 [32m+++[m
+ 2 files changed, 6 insertions(+)
+
+[33mcommit 1e1587214bf24efe1c6fb65c3f85bdf4faa2105f[m
+Author: Bob the Intern <bob.intern@securinets-enit.tn>
+Date:   Sat Oct 3 23:52:00 2026 +0100
+
+    fix: remove .env oops (nobody look at the history pls 🙈)
+
+ config/.env | 4 [31m----[m
+ 1 file changed, 4 deletions(-)
+
+[33mcommit 43948196c082af25bcc1d59dd9039354dd5c4e9d[m
+Author: Bob the Intern <bob.intern@securinets-enit.tn>
+Date:   Sat Oct 3 23:47:00 2026 +0100
+
+    chore: add deploy config
+
+ config/.env | 4 [32m++++[m
+ 1 file changed, 4 insertions(+)
+
+[33mcommit 3633e8c03c3da804040e9d519d377019efb289f6[m
+Author: Securinets HQ <hq@securinets-enit.tn>
+Date:   Thu Oct 1 09:00:00 2026 +0100
+
+    🎬 init: operation git-quest
+
+ .gitignore           |  5 [32m+++++[m
+ README.md            | 46 [32m++++++++++++++++++++++++++++++++++++++++++++++[m
+ agents/README.md     |  3 [32m+++[m
+ agents/TEMPLATE.md   |  4 [32m++++[m
+ mission/briefing.txt |  8 [32m++++++++[m
+ 5 files changed, 66 insertions(+)
